@@ -145,7 +145,7 @@ createVersionTag() {
 # This file contains the version information of the components that
 # were used to build this aSmack version
 
-declare -g -A COMPONENT_VERSIONS
+declare -a COMPONENT_VERSIONS
 EOF
 
 	for d in $(ls $SRC_DIR) ; do
@@ -535,7 +535,7 @@ setdefaults() {
 	BUILD_DATE=$(date)
 	MACHINE_DATE=$(date "+%Y-%m-%d")
 	# Declare an associative array that is in global scope ('-g')
-	declare -g -A COMPONENT_VERSIONS
+	declare -a COMPONENT_VERSIONS
 }
 
 parseconfig() {
