@@ -21,6 +21,12 @@ didn't read the README.
 
 The JARs can be found @ http://asmack.freakempire.de/
 
+Building JARs
+=============
+Use next link http://overwatering.org/blog/2013/05/compiling-asmack/ <br>
+After 15th steps do /android-sdk-linux/tools/android update sdk -u
+
+
 Support & Contact
 =================
 
