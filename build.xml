@@ -50,7 +50,7 @@
     <fail unless="${android.exists}" message="Android version ${android.version} does not is not available : ${sdk-location}/platforms/${android.version}/android.jar is not found" />
 </target>
 
-<target name="compile-android" description="Compile for android" depends="check-android-exists" >
+<target name="compile-android" description="Compile for android" >
     <delete dir="build/classes/${android.version}" failonerror="false" />
     <mkdir dir="build/classes/${android.version}" />
     <javac
