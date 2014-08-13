@@ -23,10 +23,10 @@ The JARs can be found @ http://asmack.freakempire.de/
 
 Building JARs
 =============
-Use next link http://overwatering.org/blog/2013/05/compiling-asmack/ <br>
-After 15th steps do:  /android-sdk-linux/tools/android update sdk -u <br>
-or limit to some particular platforms http://stackoverflow.com/questions/4681697/is-there-a-way-to-automate-the-android-sdk-installation/4682241#4682241
-
+1) Use next link http://overwatering.org/blog/2013/05/compiling-asmack/ <br>
+2) After 15th steps do:  /android-sdk-linux/tools/android update sdk -u <br>
+or limit to some particular platforms http://stackoverflow.com/questions/4681697/is-there-a-way-to-automate-the-android-sdk-installation/4682241#4682241 <br>
+3) Need Java7 to be installed
 
 Support & Contact
 =================
