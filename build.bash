@@ -508,7 +508,7 @@ execute() {
 
 setdefaults() {
 	# Default configuration, can be changed with script arguments
-	SMACK_REPO=git://github.com/Flowdalic/smack.git
+	SMACK_REPO=git@github.com:QuickBlox/Smack.git
 	SMACK_BRANCH=
 	SMACK_LOCAL=false
 	UPDATE_REMOTE=true
